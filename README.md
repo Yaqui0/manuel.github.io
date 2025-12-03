@@ -1,0 +1,177 @@
+[mi pagina_2.html](https://github.com/user-attachments/files/23903835/mi.pagina_2.html)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3 - Naturaleza</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f0f7f0;
+            color: #2d5016;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #2e7d32, #1b5e20);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            border: 1px solid #e0e0e0;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .image-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .image-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+        .image-card h3 {
+            margin-bottom: 15px;
+            color: #1b5e20;
+            font-size: 1.3rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        img:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #2e7d32;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #1b5e20;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .optimized {
+            border: 3px solid #4caf50;
+        }
+        .normal {
+            border: 3px solid #ff9800;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #5d6d60;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+        }
+        .nature-fact {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Belleza Natural</h1>
+            <p class="subtitle">Explorando los paisajes más impresionantes del planeta</p>
+        </header>
+        
+        <div class="content">
+            <p>La naturaleza nos ofrece algunos de los espectáculos más impresionantes del planeta. Desde majestuosas montañas hasta vastos océanos, cada rincón de nuestro mundo tiene su propia belleza única.</p>
+            
+            <div class="nature-fact">
+                <p>💡 <strong>Dato interesante:</strong> Las imágenes optimizadas para web reducen el consumo de datos y mejoran la velocidad de carga, lo que es especialmente importante para usuarios con conexiones móviles.</p>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-card">
+                    <h3>Bosque Optimizado</h3>
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" 
+                         alt="Bosque verde" 
+                         class="optimized"
+                         loading="lazy">
+                </div>
+                
+                <div class="image-card">
+                    <h3>Cascada Normal</h3>
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" 
+                         alt="Cascada en las montañas" 
+                         class="normal"
+                         loading="lazy">
+                </div>
+                
+                <div class="image-card">
+                    <h3>Montañas Optimizadas</h3>
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b" 
+                         alt="Montañas nevadas" 
+                         class="optimized"
+                         loading="lazy">
+                </div>
+            </div>
+            
+            <p>La optimización de imágenes no solo mejora la velocidad de carga del sitio, sino que también reduce el consumo de energía en dispositivos móviles y mejora la accesibilidad para personas con conexiones limitadas.</p>
+        </div>
+    </div>
+</body>
+</html>
